@@ -24,6 +24,10 @@ elif type lsb_release >/dev/null 2>&1; then
     fi
 elif [ -e /etc/arch-release ]; then
     distro=arch
+elif [ -f /etc/gentoo-release ] ; then
+    distro=gentoo
+elif [ -f /etc/slackware-version ]; then
+    distro=slackware
 else
     distro=unknown
 fi
