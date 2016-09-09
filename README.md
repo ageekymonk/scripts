@@ -3,7 +3,7 @@ Bunch of automation scripts for everything
 
 ## Install
 
-## bash scripts
+## shell scripts
 
 ## node scripts
 
